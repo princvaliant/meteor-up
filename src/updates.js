@@ -28,9 +28,9 @@ export default function () {
       (remote[1] === local[1] && remote[2] > local[2]);
 
       if (available) {
-        let text = `update available ${pkg.version} => ${npmVersion}`;
-        text += `\nTo update, run ${chalk.green('npm i -g mup')}`;
-        console.log(boxen(text, { padding: 1, margin: 1, align: 'center', borderColor: 'yellow'}));
+     //   let text = `update available ${pkg.version} => ${npmVersion}`;
+     //   text += `\nTo update, run ${chalk.green('npm i -g mup')}`;
+     //   console.log(boxen(text, { padding: 1, margin: 1, align: 'center', borderColor: 'yellow'}));
       }
 
       resolve();
