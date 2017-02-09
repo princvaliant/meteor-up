@@ -1,3 +1,12 @@
+# TO INSTALL
+
+cd <to directory of this project>
+meteor npm pack
+meteor npm install -g mup-1.2.0.tgz
+
+on the server make sure that ~/oracle/instantclient is copied on the server
+
+
 # meteor-up [![Stories in Ready](https://badge.waffle.io/kadirahq/meteor-up.svg?label=ready&title=Ready)](http://waffle.io/kadirahq/meteor-up)
 
 #### Production Quality Meteor Deployments
