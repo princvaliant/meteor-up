@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/kadirahq/meteor-up#readme",
   "devDependencies": {
-    "nofat": "1.0.x"
+    "nofat": "^1.0.3"
   },
   "dependencies": {
     "archiver": "1.x.x",

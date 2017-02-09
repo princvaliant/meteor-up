@@ -51,6 +51,12 @@ docker run \
   <%= docker.image %>
 echo "Ran <%= docker.image %>"
 sleep 15s
+    # Custom avolos oracle driver copy
+  #  sudo apt-get install libaio1
+    docker cp /home/avolos/oracle $APPNAME:/opt
+  #  docker exec $APPNAME ln -s $APPNAME:/opt/oracle/instantclient/libclntsh.so.12.1 $APPNAME:/opt/oracle/instantclient/libclntsh.so
+  #   docker exec $APPNAME export LD_LIBRARY_PATH=/opt/oracle/instantclient:$LD_LIBRARY_PATH
+sleep 6s
 
 <% if(typeof sslConfig === "object")  { %>
   <% if(typeof sslConfig.autogenerate === "object")  { %>
