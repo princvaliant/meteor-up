@@ -10,9 +10,6 @@ set -e
 
 if [ ! "$hasDocker" ]; then
 
-    # avolos Install for oracle
-   sudo apt-get install libaio1
-
   # Remove the lock
   set +e
   sudo rm /var/lib/dpkg/lock > /dev/null
